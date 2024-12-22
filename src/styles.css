@@ -1,0 +1,108 @@
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: 1px solid #bebed4;
+  outline: none;
+  padding: 12px 15px;
+  color: #a1a1d4;
+}
+
+button {
+  background-color: darkslategray;
+  color: #fff;
+  padding: 12px 12px;
+  border-radius: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  padding: 12px 20px;
+  background-color: #c293c2;
+  border-radius: 12px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li > span {
+  flex-grow: 1;
+  display: inline-block;
+  width: 80%;
+}
+
+li > div {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  margin: 10px auto;
+}
+
+form {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dimmed {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a1a1d4;
+  padding: 20px;
+  min-width: 50%;
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.modal-content input,
+.modal-content button {
+  display: inline-block;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(#bebee4, #deded4);
+  margin-top: 1px;
+  color: #559;
+}
