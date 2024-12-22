@@ -27,5 +27,6 @@ Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-[Task Manager App](./screenshot.png)`
+![screenshot](https://github.com/user-attachments/assets/3366527f-77ee-4e37-9af5-1cba795dc578)
+ 
    
